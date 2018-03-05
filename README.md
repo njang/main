@@ -1,2 +1,0 @@
-# main
-neojang.com
