@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Route, HashRouter } from "react-router-dom";
+import { Route, BrowserRouter } from "react-router-dom";
 // import 'bootstrap/dist/css/bootstrap.css';
 
 import Home from "./Home";
@@ -10,7 +10,7 @@ import Contact from "./Contact";
 class Main extends Component {
     render() {
         return (
-        	<HashRouter>
+        	<BrowserRouter>
 	            <div className="App">
 					<h1>Simple SPA</h1>
 					<Navbar />
@@ -20,7 +20,7 @@ class Main extends Component {
 			            <Route path="/contact" component={Contact}/>
 					</ul>
 	            </div>
-        	</HashRouter>
+        	</BrowserRouter>
         );
     }
 }
