@@ -12,7 +12,6 @@ class Main extends Component {
         return (
         	<BrowserRouter>
 	            <div className="App">
-					<h1>Simple SPA</h1>
 					<Navbar />
 					<ul className="content">
 						<Route exact path="/" component={Home}/>
