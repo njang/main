@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Header from './Header';
 import 'bootstrap/dist/css/bootstrap.css';
 
-class App extends Component {
+class Main extends Component {
     render() {
         return (
             <div className="App">
@@ -14,4 +14,4 @@ class App extends Component {
     }
 }
 
-export default App;
+export default Main;
