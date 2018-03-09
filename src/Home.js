@@ -3,16 +3,8 @@ import React, { Component } from "react";
 class Home extends Component {
   render() {
     return (
-      <div>
-        <h2>HELLO</h2>
-        <p>Cras facilisis urna ornare ex volutpat, et
-        convallis erat elementum. Ut aliquam, ipsum vitae
-        gravida suscipit, metus dui bibendum est, eget rhoncus nibh
-        metus nec massa. Maecenas hendrerit laoreet augue
-        nec molestie. Cum sociis natoque penatibus et magnis
-        dis parturient montes, nascetur ridiculus mus.</p>
- 
-        <p>Duis a turpis sed lacus dapibus elementum sed eu lectus.</p>
+      <div className='row align-items-center justify-content-center'>
+        <div className='col-8 col-sm-6 col-md-4 col-lg-3'>A results-driven and detail-oriented engineer with strong analytical & critical problem-solving skills. Experienced first-hand in application development, deployment & documentation, including requirements documentation, feedback cycles with clients and education/training of end users. Portfolio of achievements in diverse engineering fields.</div>
       </div>
     );
   }
