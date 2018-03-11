@@ -63,28 +63,6 @@ a:active {
     color: blue;
 }
 
-#root {
-  background-color: #01579B;
-  color: white;
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  /*display: flex;*/
-  /*flex-direction: column;*/
-  /*min-height: 100vh;*/
-  /*justify-content: center;*/
-  /*padding: 0 30px;*/
-  /*text-align: center;*/
-  /*background:*/
-    /*radial-gradient(black 15%, transparent 16%) 0 0,*/
-    /*radial-gradient(black 15%, transparent 16%) 8px 8px,*/
-    /*radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,*/
-    /*radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;*/
-  /*background-color: #01579B;*/
-  /*background-size: 16px 16px;*/
-}
-
-.navbar {
-  margin-bottom: 0;
-  border-radius: 0;
+.carousel-item {
+  background-image: url('http://placehold.it/1900x1080');
 }
