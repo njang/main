@@ -3,6 +3,7 @@ import { Route, BrowserRouter } from "react-router-dom";
 // import 'bootstrap/dist/css/bootstrap.css';
 
 import Home from "./Home";
+import About from "./About";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import Works from "./Works";
@@ -15,9 +16,10 @@ class Main extends Component {
 	            <div className="App">
 					<Navbar />
 					<ul className="content">
-						<Route exact path="/" component={Home}/>
-			            <Route path="/works" component={Works}/>
-			            <Route path="/contact" component={Contact}/>
+						<Route exact path="/" component={Home} />
+						<Route path="/about" component={About} />
+			            <Route path="/works" component={Works} />
+			            <Route path="/contact" component={Contact} />
 					</ul>
 					<Footer />
 	            </div>
