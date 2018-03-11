@@ -6,7 +6,7 @@ class Footer extends Component {
 		return (
 			<footer class='py-5 bg-dark'>
 				<div class='container'>
-					<p class='m-0 text-center text-white'>Handcrafted with &#10084;</p>
+					<p class='m-0 text-center text-white'>Handcobbled with &#10084;</p>
 					<p class='m-0 text-center text-white'>Copyright &copy; Neo W. Jang 2018</p>
 				</div>
 			</footer>
