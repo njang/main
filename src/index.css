@@ -38,9 +38,9 @@ ul.header li a {
 .content li {
   margin-bottom: 10px;
 }
-.active {
+/*.active {
   background-color: #01579B;
-}
+}*/
 
 a:link {
     /*color: red;*/
@@ -61,8 +61,4 @@ a:hover {
 /* selected link */
 a:active {
     color: blue;
-}
-
-.carousel-item {
-  background-image: url('http://placehold.it/1900x1080');
 }
