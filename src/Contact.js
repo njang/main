@@ -14,7 +14,7 @@ class Contact extends Component {
                 </a>
                 <a className='row my-2' href='mail:neo.w.jang@gmail.com'>
                     {/*<img className='col' src='images/icons/gmail.svg' height='48px' alt='Gmail' />*/}
-                    <i class="fas fa-at h1"></i>
+                    <i class="fas fa-envelope h1"></i>
                 </a>
                 
             </div>
