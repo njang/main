@@ -4,7 +4,6 @@ import { Route, BrowserRouter } from "react-router-dom";
 
 import Home from "./Home";
 import Navbar from "./Navbar";
-import Header from "./Header";
 import Footer from "./Footer";
 import Works from "./Works";
 import Contact from "./Contact";
@@ -15,7 +14,6 @@ class Main extends Component {
         	<BrowserRouter>
 	            <div className="App">
 					<Navbar />
-					<Header />
 					<ul className="content">
 						<Route exact path="/" component={Home}/>
 			            <Route path="/works" component={Works}/>
