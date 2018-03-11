@@ -1,6 +1,17 @@
 import React, { Component } from 'react';
+// import MemberView from 'components/MemberView'
 
 class About extends Component {
+  // let team = cohort.map( (member) => {
+  //   return (
+  //     <MemberView
+  //       key = { child._id }
+  //       childId = { child._id }
+  //       childName = { child.name.first }
+  //       childIcon = { child.icon }
+  //     />
+  //   )
+  // })
   render() {
     return (
         
