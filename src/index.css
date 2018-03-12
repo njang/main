@@ -43,9 +43,7 @@ ul.header li a {
 }*/
 
 a:link {
-    /*color: red;*/
     text-decoration: none;
-    color: white;
 }
 
 /* visited link */
