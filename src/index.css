@@ -1,7 +1,6 @@
 body {
-  margin: 0px;
-  padding: 0px;
-  font-family: sans-serif;
+  /*margin: 0px;*/
+  /*padding: 0px;*/
   font-family: 'Roboto', sans-serif;
 }
 
@@ -25,8 +24,6 @@ ul.header li a {
   display: inline-block;
 }
 .content {
-  /*background-color: rgba(255,255,255,0.5);*/
-  /*border-radius: 1em;*/
   margin: 25px;
   padding: 1em;
   height: 100%;
@@ -38,9 +35,6 @@ ul.header li a {
 .content li {
   margin-bottom: 10px;
 }
-/*.active {
-  background-color: #01579B;
-}*/
 
 a:link {
     text-decoration: none;
@@ -61,14 +55,22 @@ a:active {
     color: blue;
 }
 
+/* handling profile photos that turn from greyscale to color upon hover */
 .rounded-circle {
-    filter: gray; /* IE5+ */
+  filter: gray; /* IE5+ */
   -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
   -webkit-transition: all .8s ease-in-out;  
 }
-
 .rounded-circle:hover {
 filter: none;
   -webkit-filter: grayscale(0);
   -webkit-transform: scale(1.01);
+}
+
+/* In mobile screen, disable grayscale */
+@media only screen and (max-width: 600px) {
+    .rounded-circle {
+        filter: none;
+        -webkit-filter: grayscale(0);
+    }
 }
