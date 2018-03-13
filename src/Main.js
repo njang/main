@@ -8,7 +8,7 @@ class Main extends Component {
     render() {
         return (
         	<BrowserRouter>
-	            <div className="App">
+	            <div className="Main">
 					<Navbar />
 					<div className="content">
 						{ Routes }
