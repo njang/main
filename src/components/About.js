@@ -68,11 +68,38 @@ class About extends Component {
                     'linkedIn': 'wscottsh',
                     'github': 'wScottSh',
                     'gaProfile': 'wScottSh'
+                },
+                {
+                    'name': 'Shahzad Khan',
+                    'avatar': 'https://avatars0.githubusercontent.com/u/19425281?s=120&v=4',
+                    'linkedIn': 'skhan337',
+                    'github': 'shahzadkhan3iii7'
+                },
+                {
+                    'name': 'Daniel Scott',
+                    'avatar': 'https://avatars3.githubusercontent.com/u/20377140?s=120&v=4',
+                    'linkedIn': 'daniel-j-scott',
+                    'github': 'mydeveloperjourney'  
+                },
+                {
+                    'name': 'Alex White',
+                    'avatar': 'https://avatars0.githubusercontent.com/u/6307308?s=120&v=4',
+                    'linkedIn': 'alexcarlwhite',
+                    'github': 'awhit012'  
                 }
             ]       
         }
     }
     render() {
+        // Fisher-Yates shuffle
+        const shuffle = (a) => {
+            for (let i = a.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [a[i], a[j]] = [a[j], a[i]];
+            }
+            return a;
+        }
+        shuffle(this.state.team)
         let cohort = this.state.team.map((fellow) => {
             return (
                 <FellowView 
@@ -88,7 +115,7 @@ class About extends Component {
                 <div className='row'>
                     <div className='col-lg-8 col-sm-6 mb-4'>
                         <h1 className='my-4'>Hello, my name is Neo.</h1>
-                        <p>I’m a web developer and a code cobbler from Austin. I
+                        <p>I’m a web developer and a code cobbler from Austin. I 
                         In my past life, I’ve executed performance data analytics in electronic health records (EHR), and conducted Biomedical research in ultrasound bubbles.</p>
                     </div>          
                     <div className='col-lg-4 col-sm-6 text-center mb-4'>
@@ -98,7 +125,7 @@ class About extends Component {
                 <div className='row'>
                     <div className='col-lg-12'>
                         <h2 className='my-4'>The Team</h2>
-                        <p>In December 2017, 13 strangers embarked on a journey that will impact every member in the the most profound and wondrous ways that no one could have possibly foreseen. These are my fellow developers who accompanied me in not only learning, but also nerding-out, pontificating, laughing through spontaneous singing and dancing, which was impossibly all crammed into the shortest 13-weeks of my life.</p>
+                        <p>In December 2017, a group of strangers embarked on a journey that will impact every member in the the most profound and wondrous ways that no one could have possibly foreseen. These are my fellow developers who accompanied me in not only learning, but also nerding-out, pontificating, and laughing heartily through spontaneous mid-lecture singing and in-class dancing, which was impossibly all packed into the shortest 13-weeks of my life.</p>
                     </div>
                     { cohort }
                 </div>
