@@ -8,7 +8,7 @@ class Main extends Component {
     render() {
         return (
         	<HashRouter>
-	            <div className="Main">
+	            <div className="Main pt-5">
 					<Navbar />
 					<div className="content">
 						{ Routes }
