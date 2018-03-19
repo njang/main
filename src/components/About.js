@@ -115,8 +115,7 @@ class About extends Component {
                 <div className='row'>
                     <div className='col-lg-8 col-sm-6 mb-4'>
                         <h1 className='my-4'>Hello, my name is Neo.</h1>
-                        <p>I’m a web developer and a code cobbler from Austin. I 
-                        In my past life, I’ve executed performance data analytics in electronic health records (EHR), and conducted Biomedical research in ultrasound bubbles.</p>
+                        <p>I’m a web developer and a code cobbler from Austin. I am results-driven and detail-oriented, with strong analytical & critical problem-solving skills. In my past life, I’ve executed performance data analytics in electronic health records (EHR), and conducted Biomedical research in ultrasound bubbles. If you have an interesting and challenging problems you'd like to solve together, feel free to contact me.</p>
                     </div>          
                     <div className='col-lg-4 col-sm-6 text-center mb-4'>
                         <img className='rounded-circle img-fluid d-block mx-auto' width='200px' src='images/profile02.jpeg' alt='Profile of Neo Jang' />
